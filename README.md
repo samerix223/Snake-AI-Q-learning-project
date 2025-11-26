@@ -14,3 +14,21 @@ Designed to run in **MU Editor**, but works in any Python 3 environment.
   - `train` – fast training over many episodes,
   - `play` – watch the trained AI.
 - Q-table is saved/loaded from `qtable_snake.pkl`
+
+- ## Requirements
+
+- Python 3.8+
+- `pygame`
+
+```bash
+pip install pygame
+```
+
+## Run
+
+```bash
+python snake_qlearning.py
+```
+Keys:
+- `SPACE` – toggle `train` / `play`
+- `S` – save Q-table
